@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header> 
+        <a href="#"><img src="items/logo.png" class="logo"></a>
+        <ul class="nav">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Tv Shows</a></li>
+            <li><a href="#">Movies</a></li>
+            <li><a href="#">Latest</a></li>
+            <li><a href="#">My List</a></li>
+        </ul>
+        <div class="search">
+            <input type="text" placeholder="search">
+            <i class="icon fa-solid fa-magnifying-glass"></i>
+        </div>
+    </header>
+    <div class="banner">
+        <img src="items/banner.png" class="bg">
+        <div class="content">
+            <img src="items/titile.png" class="title">
+            <h4>
+                <span>2021</span>
+                <span><i>A</i></span>
+                <span>1 Season</span>
+                <span>Thriller</span>
+            </h4>
+            <p>"Squid Game" Season 1 follows cash-strapped contestants who participate in deadly children's games for a huge cash prize. The dystopian thriller explores themes of desperation, morality, and survival, becoming a global sensation with its gripping narrative and intense visuals.</p>
+            <div class="btn">
+                <a href="#"><i class="fa-solid fa-play"></i> Play</a>
+                <a href="#"><i class="fa-solid fa-plus"></i> My List</a>
+            </div>
+        </div>
+        <a class="play" onclick="toggleVideo();"><img src="items/play.png">Watch Trailer</a>
+    </div>
+        <div class="trailer">
+            <video src="items/Squid_Game___Official_Trailer___Netflix(720p).mp4" controls="true"></video>
+            <img src="items/close.png" class="close" onclick="toggleVideo();">
+        </div>
+
+        <script src="script.js"></script>
+</body>
+</html>
