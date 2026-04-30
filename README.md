@@ -2,7 +2,7 @@
 
 Netflix Website "Squid Game" landing page built using HTML, CSS and JavaScript — a small fan-made recreation of the Netflix show landing experience for learning and demo purposes.
 
-![Landing screenshot](./Screenshot 2024-06-19 005917.png)
+![Landing screenshot](./Screenshot%202024-06-19%20005917.png)
 
 ## Demo
 Open `index.html` in your browser to view the page locally.
